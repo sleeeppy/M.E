@@ -10,7 +10,6 @@ public class FrozenObject : MonoBehaviour
 
     private void Update()
     {
-        // isFrozen�� true�� ��쿡�� x ��ǥ�� ������
         if (isFrozen && mung == false)
         {
             float slideAmount = slideSpeed * Time.deltaTime;
@@ -20,7 +19,6 @@ public class FrozenObject : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Frozen �±׸� ���� ������Ʈ�� �浹�ϸ� isFrozen�� true�� ����
         if (collision.collider.CompareTag("Frozen"))
         {
             isFrozen = true;
@@ -29,7 +27,6 @@ public class FrozenObject : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        // �浹���� ����� isFrozen�� false�� ����
         if (collision.collider.CompareTag("Frozen"))
         {
             isFrozen = false;

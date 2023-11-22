@@ -56,9 +56,6 @@ public class Singleton : MonoBehaviour
         LocalizeSettingChanged();
     }
 
-
-
-
     [ContextMenu("언어 가져오기")]
     void GetLang()
     {
