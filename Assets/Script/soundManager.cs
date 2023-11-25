@@ -1,15 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class soundManager : MonoBehaviour
+public class SoundManager : MonoBehaviour
 {
-    public AudioSource BGM;
-    public Slider Slider;
+    public Slider slider;
+
+    private void Start()
+    {
+        slider.value = GameManager.instance.volume; // 슬라이더 초기화
+    }
+
     public void SetMusicVolume()
     {
-        BGM.volume = Slider.value;
+        float volume = slider.value;
+        GameManager.instance.SetVolume(volume); // GameManager의 SetVolume 함수를 호출하여 소리 설정 변경
     }
 }
