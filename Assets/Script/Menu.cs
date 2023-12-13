@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -62,21 +63,27 @@ public class Menu : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1f;
     }
-    void OnLevelWasLoaded(int level)
+    void OnSceneLoaded(Scene scene, LoadSceneMode level)
     {
         switch (level)
         {
-            case 0:
-
+            case (LoadSceneMode)1:
                 Time.timeScale = 0f;
-
                 break;
-            case 1:
-
+            case (LoadSceneMode)0:
                 Time.timeScale = 1f;
-
                 break;
         }
-
     }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
 }
