@@ -26,19 +26,19 @@ public class Shot : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeySetting.keys[KeyAction.M0]))
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             MfLeft();
         }
-        if(Input.GetKeyDown(KeySetting.keys[KeyAction.M1]))
+        if(Input.GetKeyDown(KeyCode.Mouse1))
         {
             MfRight();
         }
-        if(Input.GetKeyDown(KeySetting.keys[KeyAction.LEFT]))
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             CoolLeft();
         }
-        if(Input.GetKeyDown(KeySetting.keys[KeyAction.RIGHT]))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             CoolRight();
         }

@@ -49,7 +49,6 @@ public class HookSSD : MonoBehaviour
             float _hookDistance = Vector2.Distance(transform.position, player.position);
 
             if (_hookDistance > hookDistance) move = false;
-
         }
         else
         {
@@ -103,7 +102,6 @@ public class HookSSD : MonoBehaviour
     {
         if (stop == true && oneShot == false)
         {
-            
             oneShot = true;
             rig.AddForce(direction* force, ForceMode2D.Impulse);
             return;

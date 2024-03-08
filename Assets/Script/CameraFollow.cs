@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target; // 플레이어의 Transform을 저장할 변수
-    public float minY = -1f; // 카메라의 Y축 좌표가 내려갈 수 있는 최소 값
+    public Transform target;
+    public float minY = -1f;
 
-    private bool shouldFollow = true; // 카메라가 플레이어를 따라가는지 여부를 결정하는 플래그 변수
-    private float speed = 5.0f; // 카메라 이동 속도
+    private bool shouldFollow = true;
+    private float speed = 5.0f;
 
     void LateUpdate()
     {
@@ -17,13 +17,13 @@ public class CameraFollow : MonoBehaviour
             cameraPosition.y = Mathf.Max(target.position.y, minY);
         }
 
-        if (Input.GetKey(KeySetting.keys[KeyAction.Upar]))
+        if (Input.GetKey(KeyCode.K))
         {
             cameraPosition.y += speed * Time.deltaTime;
             shouldFollow = false;
         }
 
-        if (Input.GetKey(KeySetting.keys[KeyAction.Down]))
+        if (Input.GetKey(KeyCode.J))
         {
             cameraPosition.y -= speed * Time.deltaTime;
 
