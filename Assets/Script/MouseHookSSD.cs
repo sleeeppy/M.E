@@ -53,8 +53,7 @@ public class HookSSD : MonoBehaviour
         }
         else
         {
-            //if (Menu.activeSelf || Option.activeSelf) { }
-            else
+            if(!Menu.activeSelf || !Option.activeSelf)
             {
                 Vector2 mousePos;
 
