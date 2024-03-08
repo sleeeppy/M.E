@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: English
+  currentLanguage: Korean
   detectLanguage: 1
   defaultLanguage: 
   saveLoad: 1
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setting
+  m_text: "\uC124\uC815"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SFX
+  m_text: "\uD6A8\uACFC\uC74C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Full Screen
+  m_text: "\uC804\uCCB4\uD654\uBA74"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -2618,7 +2618,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: "\uAC8C\uC784\uC2DC\uC791"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -2870,7 +2870,6 @@ GameObject:
   - component: {fileID: 970982634}
   - component: {fileID: 970982633}
   - component: {fileID: 970982635}
-  - component: {fileID: 970982636}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3005,19 +3004,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &970982636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 970982632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dacf80b621e1848ada1c3bb7cfe949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 1321460476}
 --- !u!1 &992508037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,9 +3106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Exit
-
-'
+  m_text: "\uAC8C\uC784\uC885\uB8CC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -5053,7 +5037,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Music
+  m_text: "\uC74C\uC545"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}

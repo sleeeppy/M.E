@@ -37,7 +37,6 @@ public class HookSSD : MonoBehaviour
     void Update()
     {
         if(!stop) MoveState();
-
     }
 
     private void MoveState()
@@ -54,9 +53,7 @@ public class HookSSD : MonoBehaviour
         }
         else
         {
-            if (Menu.activeSelf || Option.activeSelf)
-            {
-            }
+            //if (Menu.activeSelf || Option.activeSelf) { }
             else
             {
                 Vector2 mousePos;

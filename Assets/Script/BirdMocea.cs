@@ -4,8 +4,6 @@ using UnityEngine;
 public class BirdMocea : MonoBehaviour
 {
     public float movementSpeed = 1f;
-    private bool isAttached = false;
-    private Transform attachedObject;
     private bool isM = false;
     public Animator animator;
     public bool isL = false;

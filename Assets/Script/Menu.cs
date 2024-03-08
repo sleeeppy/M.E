@@ -28,7 +28,6 @@ public class Menu : MonoBehaviour
                 MenuObject.SetActive(false);
                 Time.timeScale = 1f;
             }
-
         }
 
         else if (Option.activeSelf)
@@ -85,5 +84,4 @@ public class Menu : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-
 }

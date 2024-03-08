@@ -1807,7 +1807,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC124\uC815"
+  m_Text: Setting
 --- !u!222 &336530897
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4923,7 +4923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uACC4\uC18D\uD558\uAE30"
+  m_Text: Continue
 --- !u!222 &976045907
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7017,7 +7017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD6A8\uACFC\uC74C"
+  m_text: SFX
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -7248,7 +7248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806f0696300aeac44a0e17efee222854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLanguage: Korean
+  currentLanguage: English
   detectLanguage: 1
   defaultLanguage: 
   saveLoad: 1
@@ -7615,7 +7615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC74C\uC545"
+  m_text: Music
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -9417,7 +9417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD0C0\uC774\uBA38"
+  m_text: Timer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -10112,7 +10112,6 @@ GameObject:
   - component: {fileID: 1957167181}
   - component: {fileID: 1957167180}
   - component: {fileID: 1957167179}
-  - component: {fileID: 1957167178}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10120,18 +10119,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1957167178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957167177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64dacf80b621e1848ada1c3bb7cfe949, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &1957167179
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10652,7 +10639,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC804\uCCB4\uD654\uBA74"
+  m_text: Full screen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
   m_sharedMaterial: {fileID: 8859931254901486215, guid: 29a1a03fe9ea0c146b4409a000faad2c, type: 2}
@@ -10815,7 +10802,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uBA54\uB274\uB85C \uB098\uAC00\uAE30"
+  m_Text: Main Menu
 --- !u!222 &2084233026
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10887,7 +10874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143892470}
   m_Layer: 0
-  m_Name: manager
+  m_Name: Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

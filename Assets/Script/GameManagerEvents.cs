@@ -18,13 +18,13 @@ public class GameManagerEvents : MonoBehaviour
     {
         if (scene.name == "First")
         {
-            // 메인 씬의 슬라이더를 설정하는 로직...
+            // Main Scene Slider settings
         }
         else if (scene.name == "Game")
         {
             if (GameManager.instance != null)
             {
-                GameObject musicSliderObject = GameObject.Find("manager/Canvas/Option/Panel/Image/Music");
+                GameObject musicSliderObject = GameObject.Find("Manager/Canvas/Option/Panel/Image/Music");
                 if (musicSliderObject != null)
                 {
                     Debug.Log("Find!");

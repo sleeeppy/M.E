@@ -16,7 +16,8 @@ public class Shot : MonoBehaviour
     public float coolTime = 0.2f;
     public float coolTime1 = 0.2f;
     bool isCool = true;
-        bool isCool1 = true;
+    bool isCool1 = true;
+
     void Start()
     {
         Left.SetActive(true);
@@ -60,7 +61,7 @@ public class Shot : MonoBehaviour
     {
         if (isCool)
         {
-        Left.SetActive(true);
+            Left.SetActive(true);
             ReSetHook0();
             StopCoroutine(CoolDown());
             StartCoroutine(CoolDown());
@@ -70,7 +71,7 @@ public class Shot : MonoBehaviour
     {
         if (isCool1)
         {
-        Right.SetActive(true);
+            Right.SetActive(true);
             ReSetHook1();
             StopCoroutine(CoolDown1());
             StartCoroutine(CoolDown1());
@@ -94,7 +95,7 @@ public class Shot : MonoBehaviour
     IEnumerator CoolDown()
     {
         isCool = false;
-
+            
         yield return new WaitForSeconds(coolTime);
 
         isCool = true;
