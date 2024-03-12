@@ -14,7 +14,6 @@ public class HookSSD : MonoBehaviour
     [SerializeField,Range(0,100)]private float distance;
     [SerializeField]private float speed = 10;
     [SerializeField]private float hookDistance = 10;
-    [SerializeField] private float force = 10;
     private Rigidbody2D rig;
     private Vector3 direction;
     private bool oneShot;
@@ -85,28 +84,5 @@ public class HookSSD : MonoBehaviour
             stop = true;
         }
     }
-
-    public void ResetHookPos()
-    {
-        if (stop == false) return;
-
-        col.enabled = false;
-
-        oneShot = false;
-
-        stop = false; 
-        move = false;
-    }
-
-    public void Follow()
-    {
-        if (stop == true && oneShot == false)
-        {
-            oneShot = true;
-            rig.AddForce(direction* force, ForceMode2D.Impulse);
-            return;
-        }
-
-        move = true;
-    }
+    
 }

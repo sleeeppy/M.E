@@ -8,12 +8,8 @@ public class MouseHookSSD : MonoBehaviour
     private bool move = false;
     private bool stop = false;
 
-    public bool S1 = false;
-
     Vector2 mousePos;
     Transform player;
-    public Transform gGg;
-    public Transform characterTransform;
     [SerializeField,Range(0,100)]private float distance;
     [SerializeField]private float speed = 10;
     [SerializeField]private float hookDistance = 10;
@@ -51,17 +47,14 @@ private void MoveState()
             col.enabled = true;
 
             transform.Translate(speed * Time.deltaTime, 0, 0);
-            float _hookDistance = Vector2.Distance(transform.position, player.position);
+            float hookDistance = Vector2.Distance(transform.position, player.position);
 
-            if (_hookDistance > hookDistance) move = false;
+            if (hookDistance > hookDistance) move = false;
 
         }
         else
         {
-            if (Menu.activeSelf || Option.activeSelf)
-            {
-            }
-            else
+            if(!Menu.activeSelf || !Option.activeSelf)
             {
                 Vector2 mousePos;
 
@@ -113,7 +106,7 @@ private void MoveState()
         {
             oneShot = true;
 
-            Vector2 targetPosition = (Vector2)transform.position;
+            Vector2 targetPosition = transform.position;
             rig.AddForce((targetPosition - (Vector2)player.position).normalized * force, ForceMode2D.Impulse);
 
             return;

@@ -7,12 +7,12 @@ public class SoundManager : MonoBehaviour
 
     private void Start()
     {
-        slider.value = GameManager.instance.volume; // 슬라이더 초기화
+        slider.value = GameManager.instance.volume; 
     }
 
     public void SetMusicVolume()
     {
         float volume = slider.value;
-        GameManager.instance.SetVolume(volume); // GameManager의 SetVolume 함수를 호출하여 소리 설정 변경
+        GameManager.instance.SetVolume(volume);
     }
 }

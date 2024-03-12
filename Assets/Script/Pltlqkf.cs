@@ -25,14 +25,7 @@ public class Pltlqkf : MonoBehaviour
         {
             Vector3 rotation = transform.rotation.eulerAngles;
 
-            if (currentX < playerX)
-            {
-                rotation.y = 180;
-            }
-            else
-            {
-                rotation.y = 0;
-            }
+            rotation.y = currentX < playerX ? 180 : 0;
 
             transform.rotation = Quaternion.Euler(rotation);
 

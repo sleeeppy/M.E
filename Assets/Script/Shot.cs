@@ -76,7 +76,6 @@ public class Shot : MonoBehaviour
             StopCoroutine(CoolDown1());
             StartCoroutine(CoolDown1());
         }
-        
     }
 
     void ShotHook(int num)
@@ -86,11 +85,11 @@ public class Shot : MonoBehaviour
 
     void ReSetHook0()
     {
-            hook[0].ResetHookPos();
+        hook[0].ResetHookPos();
     }
     void ReSetHook1()
     {
-            hook[1].ResetHookPos1();
+        hook[1].ResetHookPos1();
     }
     IEnumerator CoolDown()
     {

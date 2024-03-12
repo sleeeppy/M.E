@@ -34,12 +34,7 @@ public class GameManager : MonoBehaviour
             BGM.volume = volume; 
         }
     }
-
-    public void SaveVolume()
-    {
-        volume = mainSceneSlider.value; 
-    }
-
+    
     public void ApplyVolume()
     {
         if (gameSceneSlider != null)
@@ -67,14 +62,6 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
-
-    public void UpdateVolume(float newVolume)
-    {
-        if (mainSceneSlider != null)
-        {
-            mainSceneSlider.value = newVolume;
-        }
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
