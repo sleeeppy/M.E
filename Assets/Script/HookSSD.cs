@@ -12,8 +12,7 @@ public class MouseHookSSD : MonoBehaviour
     Transform player;
     [SerializeField,Range(0,100)]private float distance;
     [SerializeField]private float speed = 10;
-    [SerializeField]private float hookDistance = 10;
-    [SerializeField] private float force = 10;
+    [SerializeField]private float force = 10;
     private Rigidbody2D rig;
     private Vector3 direction;
     private bool oneShot;
@@ -49,22 +48,20 @@ private void MoveState()
             transform.Translate(speed * Time.deltaTime, 0, 0);
             float hookDistance = Vector2.Distance(transform.position, player.position);
 
-            if (hookDistance > hookDistance) move = false;
-
+            if (10 < hookDistance) move = false;
         }
         else
         {
             if(!Menu.activeSelf || !Option.activeSelf)
             {
-                Vector2 mousePos;
+                Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                var position = player.position;
+                direction = (mousePos - (Vector2)position).normalized;
 
-                direction = (mousePos - (Vector2)player.position).normalized;
+                transform.position = position + direction * distance;
 
-                transform.position = player.position + direction * distance;
-
-                float angle = Mathf.Atan2(mousePos.y - player.position.y, mousePos.x - player.position.x) * Mathf.Rad2Deg;
+                float angle = Mathf.Atan2(mousePos.y - position.y, mousePos.x - position.x) * Mathf.Rad2Deg;
                 transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             }
         }
