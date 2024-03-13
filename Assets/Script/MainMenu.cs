@@ -7,11 +7,12 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject Option;
-    // Start is called before the first frame update
+
     void Start()
     {
         Option.SetActive(false);
     }
+    
     private void Update()
     {
         if (Option.activeSelf == false)

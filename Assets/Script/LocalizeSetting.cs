@@ -7,8 +7,7 @@ using static Singleton;
 public class LocalizeSetting : MonoBehaviour
 {
     Dropdown dropdown;
-
-
+    
     void Start()
     {
         dropdown = GetComponent<Dropdown>();
