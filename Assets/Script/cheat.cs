@@ -19,7 +19,7 @@ public class cheat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {  
-            if(Input.GetKeyDown(KeyCode.F7)) 
+        if(Input.GetKeyDown(KeyCode.F7)) 
         {
             S1 = false;
         } 

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,11 +8,11 @@ public class GameTimer : MonoBehaviour
     private float currentTime = 0.0f;
     private bool isMenuOpen = false;
     private string lastSceneName;
-    public GameState gameState;    
+    public GameState gameState;
     
     public int move;
 
-    public Text timerText;
+    public TextMeshProUGUI timerTMP;
     public GameObject menuObject;
     public GameObject optionObject;
     public Transform playerTransform;
@@ -45,10 +46,6 @@ public class GameTimer : MonoBehaviour
         Camera.position = new Vector2(0, playerTransform.position.y);
     }
 
-    private void OnApplicationQuit()
-    {
-    }
-
     private void Update()
     {
         if (!isMenuOpen && !optionObject.activeSelf)
@@ -68,8 +65,8 @@ public class GameTimer : MonoBehaviour
         int seconds = Mathf.FloorToInt(currentTime % 60);
         int minutes = Mathf.FloorToInt((currentTime / 60.0f) % 60);
         int hours = Mathf.FloorToInt((currentTime / 3600.0f) % 24);
-
-        timerText.text = string.Format("{0:00}:{1:00}:{2:00}.{3:00}", hours, minutes, seconds, milliseconds);
+        
+        timerTMP.text = string.Format("{0:00}:{1:00}:{2:00}.{3:00}", hours, minutes, seconds, milliseconds);
     }
 
     public void OpenMenu()
@@ -111,7 +108,7 @@ public class GameTimer : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
     {
         if (scene.name == lastSceneName)
         {

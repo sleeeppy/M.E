@@ -1,9 +1,10 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameEnd : MonoBehaviour
 {
-    public Text endingText;
+    public TextMeshProUGUI endingText;
 
     void Start()
     {

@@ -1,9 +1,11 @@
+using UnityEditor;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
     public float minY = -1f;
+    public float maxY = 178f;
 
     private bool shouldFollow = true;
     private float speed = 5.0f;
@@ -21,8 +23,11 @@ public class CameraFollow : MonoBehaviour
         {
             cameraPosition.y += speed * Time.deltaTime;
             shouldFollow = false;
+            
+            if (cameraPosition.y > maxY)
+                cameraPosition.y = maxY;
         }
-
+    
         if (Input.GetKey(KeyCode.J))
         {
             cameraPosition.y -= speed * Time.deltaTime;
