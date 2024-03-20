@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
         }
         else if (scene.name == "First")
         {
-            gameSceneSlider = GameObject.Find("Manager/Canvas/Option/Panel/Image/Music").GetComponent<Slider>();
+            gameSceneSlider = GameObject.Find("Canvas/Option/Panel/Image/Music").GetComponent<Slider>();
         }
 
         if (scene.name == "First")

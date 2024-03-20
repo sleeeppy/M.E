@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class MouseHookSSD : MonoBehaviour
+/*public class MouseHookSSD : MonoBehaviour
 {
     private bool move = false;
     private bool stop = false;
@@ -112,4 +112,4 @@ private void MoveState()
         move = true;
     }
 
-}
+}*/

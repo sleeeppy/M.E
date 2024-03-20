@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-  
-
 
 
 public class Shot : MonoBehaviour
 {
     [SerializeField] MouseHookSSD[] hook;
     public GameObject Menu;
+    public GameObject Option;
     public GameObject Left;
     public GameObject Right;
 
-    public float coolTime = 0.2f;
-    public float coolTime1 = 0.2f;
+    public float coolTime = 1f;
+    public float coolTime1 = 1f;
     bool isCool = true;
     bool isCool1 = true;
 
@@ -22,37 +21,27 @@ public class Shot : MonoBehaviour
     {
         Left.SetActive(true);
         Right.SetActive(true);
-
     }
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            MfLeft();
-        }
-        if(Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            MfRight();
-        }
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            CoolLeft();
-        }
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            CoolRight();
-        }
+        if(Input.GetKeyDown(KeyCode.Mouse0)) MfLeft();
+
+        if(Input.GetKeyDown(KeyCode.Mouse1)) MfRight();
+
+        if(Input.GetKeyDown(KeyCode.Q)) CoolLeft();
+
+        if(Input.GetKeyDown(KeyCode.E)) CoolRight();
     }
     public void MfLeft()
     {
-        if (Menu.activeSelf == false)
+        if (!Menu.activeSelf && !Option.activeSelf)
         {
             ShotHook(0);
         }
     }
     public void MfRight()
     {
-        if (Menu.activeSelf == false)
+        if (!Menu.activeSelf && !Option.activeSelf)
         {
             ShotHook(1);
         }
