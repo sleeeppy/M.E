@@ -15,7 +15,7 @@ public class MouseHookSSD : MonoBehaviour
     [SerializeField]private float speed = 13;
     [SerializeField]private float MaxHookDistance = 10;
     private float hookDistance;
-    private float force = 6;
+    private float force = 6f;
     private Rigidbody2D rig;
     private Vector3 direction;
     private bool oneShot;

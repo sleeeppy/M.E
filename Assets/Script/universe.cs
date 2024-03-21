@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class universe : MonoBehaviour
 {
-    [SerializeField] private float gravityScale = 0.9f;
+    [SerializeField] private float gravityScale = 0.85f;
     public Rigidbody2D rb;
     private float normal;
 
@@ -17,6 +17,7 @@ public class universe : MonoBehaviour
         if (other.CompareTag("universe")) 
         {
             rb.gravityScale = gravityScale;
+            //Debug.Log($"gravityScale : {gravityScale}, {other.name}");
         }
     }
 

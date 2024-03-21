@@ -12,6 +12,7 @@ public class VideoOption : MonoBehaviour
     List<Resolution> resolutions = new List<Resolution>();
     private Toggle toggle;
     public GameObject timerObject;
+    public bool isSkip;
     void Start()
     {
         InitUI();
@@ -86,5 +87,12 @@ public class VideoOption : MonoBehaviour
     public void OnToggleValueChanged(bool value)
     {
         timerObject.SetActive(value);
+    }
+
+    public void OnToggleIsSkip(bool value)
+    {
+        if (isSkip) isSkip = false;
+        else isSkip = true;
+        Debug.Log($"isSkip: {isSkip}");
     }
 }
