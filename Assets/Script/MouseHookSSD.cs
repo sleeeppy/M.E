@@ -70,7 +70,7 @@ public class MouseHookSSD : MonoBehaviour
                 //Debug.Log(angle);
                 if (angle <= -45f && angle >= -125f)
                 {
-                    Debug.Log("angle : -125 ~ -45 ");
+                    //Debug.Log("angle : -125 ~ -45 ");
                 }
                 transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             }
