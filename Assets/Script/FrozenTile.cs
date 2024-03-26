@@ -12,6 +12,7 @@ public class FrozenTile : MonoBehaviour
     [SerializeField] private float slideSpeed;
     public float savedYPosition;
     private Rigidbody2D playerRigidbody;
+    public Animator animator;
 
 
     private void Awake()
@@ -28,8 +29,13 @@ public class FrozenTile : MonoBehaviour
         
         if (isFrozen && isTouchedGround && transform.position.y <= savedYPosition)
         {
+            animator.SetBool("isSlide", true);
             float slideAmount = slideSpeed * Time.deltaTime;
             transform.Translate(new Vector3(slideAmount, 0f, 0f));
+        }
+        else
+        {
+            animator.SetBool("isSlide", false);
         }
     }
 
@@ -51,13 +57,13 @@ public class FrozenTile : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter2D()
     {
         isTouchedGround = true;
         if(isFrozen) savedYPosition = transform.position.y;
     }
     
-    private void OnCollisionExit2D(Collision2D other)
+    private void OnCollisionExit2D()
     {
         isTouchedGround = false;
     }

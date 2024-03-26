@@ -7,25 +7,33 @@ using UnityEngine;
 public class FlyAnimation : MonoBehaviour
 {
     public Animator animator;
-    void Start()
+    private Rigidbody2D playerRigidbody;
+    private bool isGround;
+    
+    private void Awake()
     {
+        playerRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
-    /*private void OnCollisionEnter2D(Collision2D collision)
+    
+    private void Update()
     {
-        if (collision.gameObject.CompareTag("Wall"))
+        if(isGround && playerRigidbody.velocity.magnitude <= 0.05f)
         {
-            animator.SetBool("Collider", true);
+            animator.SetBool("isSlide", false);
         }
-        if (collision.gameObject.CompareTag("Frozen"))
+        else
         {
-            animator.SetBool("Collider", true);
+            if (isGround)
+            {
+                animator.SetBool("isSlide", true);
+            }
+            else
+            {
+                animator.SetBool("isSlide", false);
+            }
         }
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        animator.SetBool("Collider", false);
-    }*/
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -38,5 +46,21 @@ public class FlyAnimation : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         animator.SetBool("Collider", false);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Wall"))
+        {
+            isGround = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Wall"))
+        {
+            isGround = false;
+        }
     }
 }

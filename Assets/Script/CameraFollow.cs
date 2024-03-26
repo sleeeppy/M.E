@@ -19,7 +19,7 @@ public class CameraFollow : MonoBehaviour
             cameraPosition.y = Mathf.Max(target.position.y, minY);
         }
 
-        if (Input.GetKey(KeyCode.K))
+        if (Input.GetKey(KeyCode.W))
         {
             cameraPosition.y += speed * Time.deltaTime;
             shouldFollow = false;
@@ -28,7 +28,7 @@ public class CameraFollow : MonoBehaviour
                 cameraPosition.y = maxY;
         }
     
-        if (Input.GetKey(KeyCode.J))
+        if (Input.GetKey(KeyCode.S))
         {
             cameraPosition.y -= speed * Time.deltaTime;
 
