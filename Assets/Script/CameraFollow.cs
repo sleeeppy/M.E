@@ -6,12 +6,15 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
     public float minY = -1f;
     public float maxY = 178f;
+    public float Range; 
 
     private bool shouldFollow = true;
     private float speed = 5.0f;
 
+    private float playerPos;
     void LateUpdate()
     {
+        playerPos = target.transform.position.y;
         Vector3 cameraPosition = transform.position;
 
         if (shouldFollow)
@@ -23,18 +26,25 @@ public class CameraFollow : MonoBehaviour
         {
             cameraPosition.y += speed * Time.deltaTime;
             shouldFollow = false;
-            
-            if (cameraPosition.y > maxY)
-                cameraPosition.y = maxY;
+
+            if (cameraPosition.y > playerPos + Range)
+            {
+                cameraPosition.y = (playerPos + Range);
+            }
+            else if (cameraPosition.y > maxY) cameraPosition.y = maxY;
+
         }
     
         if (Input.GetKey(KeyCode.S))
         {
             cameraPosition.y -= speed * Time.deltaTime;
 
-            if (cameraPosition.y < minY)
-                cameraPosition.y = minY;
-
+            if (cameraPosition.y < playerPos - Range)
+            {
+                cameraPosition.y = playerPos - Range;
+            }
+            else if (cameraPosition.y < minY) cameraPosition.y = minY;
+            
             shouldFollow = false;
         }
 

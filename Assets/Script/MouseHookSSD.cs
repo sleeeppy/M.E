@@ -67,7 +67,7 @@ public class MouseHookSSD : MonoBehaviour
                 transform.position = position + direction * distance;
 
                 float angle = Mathf.Atan2(mousePos.y - position.y, mousePos.x - position.x) * Mathf.Rad2Deg;
-                //Debug.Log(angle);
+
                 if (angle <= -45f && angle >= -125f)
                 {
                     //Debug.Log("angle : -125 ~ -45 ");

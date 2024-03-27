@@ -9,30 +9,37 @@ public class FlyAnimation : MonoBehaviour
     public Animator animator;
     private Rigidbody2D playerRigidbody;
     private bool isGround;
+
+    public FrozenTile frozenTile;
     
     private void Awake()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        frozenTile = GetComponent<FrozenTile>();
     }
     
     private void Update()
     {
-        if(isGround && playerRigidbody.velocity.magnitude <= 0.05f)
+        if (!frozenTile.isFrozen)
         {
-            animator.SetBool("isSlide", false);
-        }
-        else
-        {
-            if (isGround)
-            {
-                animator.SetBool("isSlide", true);
-            }
-            else
+            if(playerRigidbody.velocity.magnitude <= 0.05f)
             {
                 animator.SetBool("isSlide", false);
             }
+            else
+            {
+                if (isGround)
+                {
+                    animator.SetBool("isSlide", true);
+                }
+                else
+                {
+                    animator.SetBool("isSlide", false);
+                }
+            }
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)

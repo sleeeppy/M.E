@@ -22,25 +22,29 @@ public class FrozenTile : MonoBehaviour
 
     private void Update()
     {
-        if (isFrozen && isTouchedGround && playerRigidbody.velocity.magnitude <= 0.2f)
+        if (isFrozen && isTouchedGround && playerRigidbody.velocity.magnitude <= 0.05f)
         {
             savedYPosition = transform.position.y;
         }
-        
         if (isFrozen && isTouchedGround && transform.position.y <= savedYPosition)
         {
+            
             animator.SetBool("isSlide", true);
             float slideAmount = slideSpeed * Time.deltaTime;
             transform.Translate(new Vector3(slideAmount, 0f, 0f));
+            Debug.Log(playerRigidbody.velocity.magnitude);
+            //Debug.Log($"{slideAmount}");
         }
         else
         {
+            
             animator.SetBool("isSlide", false);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        isTouchedGround = true;
         if (other.CompareTag("Frozen"))
         {
             isFrozen = true;
@@ -50,6 +54,7 @@ public class FrozenTile : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        isTouchedGround = false;
         if (other.CompareTag("Frozen"))
         {
             isFrozen = false;
@@ -59,12 +64,12 @@ public class FrozenTile : MonoBehaviour
 
     private void OnCollisionEnter2D()
     {
-        isTouchedGround = true;
+        
         if(isFrozen) savedYPosition = transform.position.y;
     }
     
     private void OnCollisionExit2D()
     {
-        isTouchedGround = false;
+        
     }
 }
