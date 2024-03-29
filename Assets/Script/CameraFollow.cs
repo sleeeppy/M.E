@@ -1,5 +1,7 @@
+using System;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class CameraFollow : MonoBehaviour
 {
@@ -9,14 +11,15 @@ public class CameraFollow : MonoBehaviour
     public float Range; 
 
     private bool shouldFollow = true;
-    private float speed = 5.0f;
-
+    private float speed = 7f;
+    
     private float playerPos;
+
     void LateUpdate()
     {
         playerPos = target.transform.position.y;
         Vector3 cameraPosition = transform.position;
-
+        
         if (shouldFollow)
         {
             cameraPosition.y = Mathf.Max(target.position.y, minY);

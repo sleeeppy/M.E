@@ -28,7 +28,6 @@ public class FrozenTile : MonoBehaviour
         }
         if (isFrozen && isTouchedGround && transform.position.y <= savedYPosition)
         {
-            
             animator.SetBool("isSlide", true);
             float slideAmount = slideSpeed * Time.deltaTime;
             transform.Translate(new Vector3(slideAmount, 0f, 0f));
@@ -38,10 +37,11 @@ public class FrozenTile : MonoBehaviour
         else
         {
             
+            
             animator.SetBool("isSlide", false);
         }
     }
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         isTouchedGround = true;
