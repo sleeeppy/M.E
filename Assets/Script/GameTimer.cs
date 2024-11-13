@@ -57,6 +57,9 @@ public class GameTimer : MonoBehaviour
             PlayerPrefs.SetFloat("GameTimer_CurrentTime", currentTime);
             PlayerPrefs.Save();
         }
+
+        if(currentTime >= 300.0f)
+            SceneManager.LoadScene("Credit");
     }
 
     public void UpdateTimerText()
