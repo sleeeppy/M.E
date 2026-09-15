@@ -5,11 +5,13 @@
 <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E main menu" width="100%"/>
 
-  <h3>
+
+  <h1>
     <b>M.E</b>
-  </h3>
+  </h1>
+  (Mountain Everest)
   <p>
-    <b>Mountain Everest</b>
+    
   </p>
 
   <p>
