@@ -117,12 +117,33 @@ The summit is still worth throwing the hook again.
   <img src="docs/screenshots/controls.jpg" alt="Controls" width="90%"/>
 </div>
 
-| Action | Keys | What it does |
-| :---: | :---: | --- |
-| Throw hook | Left / right click | Fire a hook toward the cursor. If it sticks, you fly that way |
-| Recall hook | `Q` / `E` | Pull a stuck hook back so you can throw it again |
-| Camera | `W` / `S` | Look up or down to scout the next ledge |
-| Menu | `Esc` | Open settings and the how-to screen |
+<table align="center">
+  <tr>
+    <th align="center">Action</th>
+    <th align="center">Keys</th>
+    <th align="center">What it does</th>
+  </tr>
+  <tr>
+    <td align="center">Throw hook</td>
+    <td align="center">Left / right click</td>
+    <td align="center">Fire a hook toward the cursor. If it sticks, you fly that way</td>
+  </tr>
+  <tr>
+    <td align="center">Recall hook</td>
+    <td align="center"><code>Q</code> / <code>E</code></td>
+    <td align="center">Pull a stuck hook back so you can throw it again</td>
+  </tr>
+  <tr>
+    <td align="center">Camera</td>
+    <td align="center"><code>W</code> / <code>S</code></td>
+    <td align="center">Look up or down to scout the next ledge</td>
+  </tr>
+  <tr>
+    <td align="center">Menu</td>
+    <td align="center"><code>Esc</code></td>
+    <td align="center">Open settings and the how-to screen</td>
+  </tr>
+</table>
 
 You can throw or recall a hook even while it's in the air.
 Snowballs knock you back. Ice makes you slide. Watch your footing.

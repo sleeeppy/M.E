@@ -117,12 +117,33 @@
   <img src="docs/screenshots/controls.jpg" alt="조작 설명" width="90%"/>
 </div>
 
-| 조작 | 키 | 설명 |
-| :---: | :---: | --- |
-| 갈고리 날리기 | 마우스 좌 / 우클릭 | 커서 방향으로 갈고리를 날려 지형에 박으면 그쪽으로 날아갑니다 |
-| 갈고리 회수 | `Q` / `E` | 박힌 갈고리를 회수해 다시 던질 수 있습니다 |
-| 카메라 | `W` / `S` | 위·아래로 시점을 옮겨 다음 발판을 미리 볼 수 있습니다 |
-| 메뉴 | `Esc` | 설정과 설명 화면을 엽니다 |
+<table align="center">
+  <tr>
+    <th align="center">조작</th>
+    <th align="center">키</th>
+    <th align="center">설명</th>
+  </tr>
+  <tr>
+    <td align="center">갈고리 날리기</td>
+    <td align="center">마우스 좌 / 우클릭</td>
+    <td align="center">커서 방향으로 갈고리를 날려 지형에 박으면 그쪽으로 날아갑니다</td>
+  </tr>
+  <tr>
+    <td align="center">갈고리 회수</td>
+    <td align="center"><code>Q</code> / <code>E</code></td>
+    <td align="center">박힌 갈고리를 회수해 다시 던질 수 있습니다</td>
+  </tr>
+  <tr>
+    <td align="center">카메라</td>
+    <td align="center"><code>W</code> / <code>S</code></td>
+    <td align="center">위·아래로 시점을 옮겨 다음 발판을 미리 볼 수 있습니다</td>
+  </tr>
+  <tr>
+    <td align="center">메뉴</td>
+    <td align="center"><code>Esc</code></td>
+    <td align="center">설정과 설명 화면을 엽니다</td>
+  </tr>
+</table>
 
 갈고리는 날아가는 도중에도 던지거나 회수할 수 있어요.  
 눈덩이에 맞으면 밀려나고, 얼음 위에서는 미끄러지니 조심하세요.
