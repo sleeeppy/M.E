@@ -1,12 +1,16 @@
+<p align="right">
+  <a href="README.md">한국어</a> · <b>English</b>
+</p>
+
 <div align="center">
-  <img src="docs/screenshots/banner.jpg" alt="M.E banner" width="100%"/>
+  <img src="docs/screenshots/menu.jpg" alt="M.E main menu" width="100%"/>
 
-  <h1>M.E</h1>
-  <h3>Mountain Everest</h3>
-
-  <p>
-    <a href="README.md">한국어</a> · <b>English</b>
-  </p>
+  <h1>
+    <b>M.E</b>
+  </h1>
+  <h2>
+    <b>Mountain Everest</b>
+  </h2>
 
   <p>
     A hardcore platformer where <b>MEL</b>, a wheelchair user,<br/>
@@ -34,8 +38,6 @@
   <a href="https://youtu.be/WQsEJXrU3EA">
     <img src="docs/screenshots/demo.jpg" alt="M.E demo video" width="80%"/>
   </a>
-  <br/>
-  <sub>Click to watch the demo on YouTube · 5:16</sub>
 </div>
 
 ---
@@ -124,23 +126,6 @@ The summit is still worth throwing the hook again.
 
 You can throw or recall a hook even while it's in the air.
 Snowballs knock you back. Ice makes you slide. Watch your footing.
-
----
-
-## The climb
-
-The theme changes as you go up, and so does the way the hooks feel.
-
-| Area | What it's like |
-| --- | --- |
-| **Cabin · snow mountain** | Learn hook range and angle |
-| **Treehouse · cliffs** | Precise climbs across window ledges and floating platforms |
-| **Forest** | Find the next hold through the fog |
-| **Cave** | Mushrooms, rails, and hidden traps in the dark |
-| **Glacier** | Ice that slides under you, plus rolling snowballs |
-| **Sunset** | *Me* written across the clouds |
-| **Space** | Gravity drops, so each hook throw travels farther |
-| **Summit** | The ending, with your clear time on screen |
 
 ---
 

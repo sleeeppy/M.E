@@ -1,12 +1,16 @@
+<p align="right">
+  <b>한국어</b> · <a href="README.en.md">English</a>
+</p>
+
 <div align="center">
-  <img src="docs/screenshots/banner.jpg" alt="M.E banner" width="100%"/>
+  <img src="docs/screenshots/menu.jpg" alt="M.E 메인 화면" width="100%"/>
 
-  <h1>M.E</h1>
-  <h3>Mountain Everest</h3>
-
-  <p>
-    <b>한국어</b> · <a href="README.en.md">English</a>
-  </p>
+  <h1>
+    <b>M.E</b>
+  </h1>
+  <h2>
+    <b>Mountain Everest</b>
+  </h2>
 
   <p>
     휠체어를 탄 주인공 <b>MEL</b>이 갈고리를 휘둘러<br/>
@@ -34,8 +38,6 @@
   <a href="https://youtu.be/WQsEJXrU3EA">
     <img src="docs/screenshots/demo.jpg" alt="M.E 시연 영상" width="80%"/>
   </a>
-  <br/>
-  <sub>클릭하면 YouTube에서 시연 영상을 볼 수 있어요 · 5분 16초</sub>
 </div>
 
 ---
@@ -124,23 +126,6 @@
 
 갈고리는 날아가는 도중에도 던지거나 회수할 수 있어요.  
 눈덩이에 맞으면 밀려나고, 얼음 위에서는 미끄러지니 조심하세요.
-
----
-
-## 여정
-
-산을 오를수록 테마가 바뀌고, 갈고리를 쓰는 감각도 조금씩 달라집니다.
-
-| 구간 | 어떤 곳인가요 |
-| --- | --- |
-| **오두막 · 설산** | 갈고리의 거리와 각도를 익히는 출발점 |
-| **나무집 · 절벽** | 좁은 창틀과 공중 발판을 잇는 정밀한 등반 |
-| **숲** | 시야가 가려진 안개 속에서 다음 땅을 찾는 구간 |
-| **동굴** | 버섯, 레일, 함정이 숨겨진 어두운 길 |
-| **빙하** | 발을 디디면 미끄러지는 얼음. 눈덩이도 굴러옵니다 |
-| **석양** | 구름 위에 이름처럼 새겨진 *Me* |
-| **우주** | 중력이 약해져 갈고리 한 번의 궤도가 길어집니다 |
-| **정상** | 클리어 타임이 기록되는 엔딩 |
 
 ---
 
