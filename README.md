@@ -5,12 +5,12 @@
 <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E 메인 화면" width="100%"/>
 
-  <h1>
+  <h3>
     <b>M.E</b>
-  </h1>
-  <h2>
+  </h3>
+  <p>
     <b>Mountain Everest</b>
-  </h2>
+  </p>
 
   <p>
     휠체어를 탄 주인공 <b>MEL</b>이 갈고리를 휘둘러<br/>
@@ -30,9 +30,9 @@
   </p>
 </div>
 
----
 
-## 시연 영상
+
+### 시연 영상
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
@@ -40,9 +40,9 @@
   </a>
 </div>
 
----
 
-## 소개
+
+### 소개
 
 [Getting Over It with Bennett Foddy](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/)를 해본 적 있나요?
 
@@ -52,9 +52,9 @@
 한 칸만 더 올라가면 될 것 같은데, 한순간 미끄러지면 다시 밑바닥.  
 그래도 정상에 닿는 그 순간이 있어서, 다시 갈고리를 던지게 됩니다.
 
----
 
-## 스크린샷
+
+### 스크린샷
 
 <table>
   <tr>
@@ -109,9 +109,9 @@
   </tr>
 </table>
 
----
 
-## 조작법
+
+### 조작법
 
 <div align="center">
   <img src="docs/screenshots/controls.jpg" alt="조작 설명" width="90%"/>
@@ -127,9 +127,9 @@
 갈고리는 날아가는 도중에도 던지거나 회수할 수 있어요.  
 눈덩이에 맞으면 밀려나고, 얼음 위에서는 미끄러지니 조심하세요.
 
----
 
-## 주요 기능
+
+### 주요 기능
 
 - **듀얼 갈고리** — 왼손·오른손 갈고리를 따로 던지고 회수하며 경로를 만듭니다
 - **테마가 바뀌는 한 줄 맵** — 숲, 동굴, 빙하, 석양, 우주까지 한 번의 등반으로 이어집니다
@@ -139,9 +139,9 @@
 - **해상도 · 음량 · 스토리 스킵** — 짧은 런에 맞춰 옵션을 남겨 두었습니다
 - **클리어 타이머** — 정상에 도착하면 등반 시간이 엔딩에 표시됩니다
 
----
 
-## 팀
+
+### 팀
 
 <table>
   <tr>
@@ -174,9 +174,9 @@
   배급 · <b>SavageGames</b> &nbsp;|&nbsp; 출시 · 2023.09.11 &nbsp;|&nbsp; 장르 · 플랫포머 / 어드벤처
 </p>
 
----
 
-## 플레이
+
+### 플레이
 
 - [STOVE 스토어에서 무료로 플레이](https://store.onstove.com/ko/games/2303)
 - [시연 영상 · M.E (2024)](https://youtu.be/WQsEJXrU3EA)

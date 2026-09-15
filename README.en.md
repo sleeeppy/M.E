@@ -5,12 +5,12 @@
 <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E main menu" width="100%"/>
 
-  <h1>
+  <h3>
     <b>M.E</b>
-  </h1>
-  <h2>
+  </h3>
+  <p>
     <b>Mountain Everest</b>
-  </h2>
+  </p>
 
   <p>
     A hardcore platformer where <b>MEL</b>, a wheelchair user,<br/>
@@ -30,9 +30,9 @@
   </p>
 </div>
 
----
 
-## Demo
+
+### Demo
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
@@ -40,9 +40,9 @@
   </a>
 </div>
 
----
 
-## About
+
+### About
 
 Have you ever played [Getting Over It with Bennett Foddy](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/)?
 
@@ -52,9 +52,9 @@ MEL, who uses a wheelchair, wears a legendary inventor's hooks and climbs a moun
 One more ledge and you're there. One slip and you're back at the bottom.
 The summit is still worth throwing the hook again.
 
----
 
-## Screenshots
+
+### Screenshots
 
 <table>
   <tr>
@@ -109,9 +109,9 @@ The summit is still worth throwing the hook again.
   </tr>
 </table>
 
----
 
-## Controls
+
+### Controls
 
 <div align="center">
   <img src="docs/screenshots/controls.jpg" alt="Controls" width="90%"/>
@@ -127,9 +127,9 @@ The summit is still worth throwing the hook again.
 You can throw or recall a hook even while it's in the air.
 Snowballs knock you back. Ice makes you slide. Watch your footing.
 
----
 
-## Features
+
+### Features
 
 - **Dual hooks** — Throw and recall the left and right hooks separately to build a path
 - **One long themed climb** — Forest, cave, glacier, sunset, and space in a single run
@@ -139,9 +139,9 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
 - **Resolution, volume, story skip** — Options built for a short run
 - **Clear timer** — Your climb time shows up on the ending screen
 
----
 
-## Team
+
+### Team
 
 <table>
   <tr>
@@ -174,9 +174,9 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
   Publisher · <b>SavageGames</b> &nbsp;|&nbsp; Released · 2023.09.11 &nbsp;|&nbsp; Genre · Platformer / Adventure
 </p>
 
----
 
-## Play
+
+### Play
 
 - [Play free on the STOVE store](https://store.onstove.com/ko/games/2303)
 - [Demo video · M.E (2024)](https://youtu.be/WQsEJXrU3EA)
