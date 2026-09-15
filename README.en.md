@@ -32,7 +32,7 @@
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
-    <img src="https://img.youtube.com/vi/WQsEJXrU3EA/maxresdefault.jpg" alt="M.E demo video" width="80%"/>
+    <img src="docs/screenshots/demo.jpg" alt="M.E demo video" width="80%"/>
   </a>
   <br/>
   <sub>Click to watch the demo on YouTube · 5:16</sub>

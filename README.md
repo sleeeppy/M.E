@@ -32,7 +32,7 @@
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
-    <img src="https://img.youtube.com/vi/WQsEJXrU3EA/maxresdefault.jpg" alt="M.E 시연 영상" width="80%"/>
+    <img src="docs/screenshots/demo.jpg" alt="M.E 시연 영상" width="80%"/>
   </a>
   <br/>
   <sub>클릭하면 YouTube에서 시연 영상을 볼 수 있어요 · 5분 16초</sub>
