@@ -16,7 +16,7 @@
   <p>
     <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
     <img src="https://img.shields.io/badge/Aseprite-FFFFFF?style=for-the-badge&logo=aseprite&logoColor=7D929E" alt="Aseprite"/>
-    <img src="https://img.shields.io/badge/STOVE-FF5A00?style=for-the-badge&logoColor=white" alt="STOVE"/>
+    <img src="docs/badges/stove.svg" alt="STOVE" height="28"/>
   </p>
 
   <p>
