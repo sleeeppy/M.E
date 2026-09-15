@@ -32,7 +32,7 @@
 
 
 
-### 시연 영상
+## 시연 영상
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
@@ -42,7 +42,7 @@
 
 
 
-### 소개
+## 소개
 
 [Getting Over It with Bennett Foddy](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/)를 해본 적 있나요?
 
@@ -54,7 +54,7 @@
 
 
 
-### 스크린샷
+## 스크린샷
 
 <table>
   <tr>
@@ -111,7 +111,7 @@
 
 
 
-### 조작법
+## 조작법
 
 <div align="center">
   <img src="docs/screenshots/controls.jpg" alt="조작 설명" width="90%"/>
@@ -129,7 +129,7 @@
 
 
 
-### 주요 기능
+## 주요 기능
 
 - **듀얼 갈고리** — 왼손·오른손 갈고리를 따로 던지고 회수하며 경로를 만듭니다
 - **테마가 바뀌는 한 줄 맵** — 숲, 동굴, 빙하, 석양, 우주까지 한 번의 등반으로 이어집니다
@@ -141,7 +141,7 @@
 
 
 
-### 팀
+## 팀
 
 <table>
   <tr>

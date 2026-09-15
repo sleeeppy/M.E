@@ -32,7 +32,7 @@
 
 
 
-### Demo
+## Demo
 
 <div align="center">
   <a href="https://youtu.be/WQsEJXrU3EA">
@@ -42,7 +42,7 @@
 
 
 
-### About
+## About
 
 Have you ever played [Getting Over It with Bennett Foddy](https://store.steampowered.com/app/240720/Getting_Over_It_with_Bennett_Foddy/)?
 
@@ -54,7 +54,7 @@ The summit is still worth throwing the hook again.
 
 
 
-### Screenshots
+## Screenshots
 
 <table>
   <tr>
@@ -111,7 +111,7 @@ The summit is still worth throwing the hook again.
 
 
 
-### Controls
+## Controls
 
 <div align="center">
   <img src="docs/screenshots/controls.jpg" alt="Controls" width="90%"/>
@@ -129,7 +129,7 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
 
 
 
-### Features
+## Features
 
 - **Dual hooks** — Throw and recall the left and right hooks separately to build a path
 - **One long themed climb** — Forest, cave, glacier, sunset, and space in a single run
@@ -141,7 +141,7 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
 
 
 
-### Team
+## Team
 
 <table>
   <tr>
