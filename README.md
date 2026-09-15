@@ -145,27 +145,29 @@
 
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/sleeeppy.png" width="140"/><br/>
       <b>Han Gyeol Kim</b><br/>
       Developer / Game Design<br/>
       <a href="https://github.com/sleeeppy">@sleeeppy</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/ParkSungHyun123.png" width="140"/><br/>
       <b>Sung Hyun Park</b><br/>
       Developer<br/>
       <a href="https://github.com/ParkSungHyun123">@ParkSungHyun123</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/taeng0720.png" width="140"/><br/>
       <b>Tae Woo Kim</b><br/>
       Developer<br/>
       <a href="https://github.com/taeng0720">@taeng0720</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
+      <img src="docs/badges/asher.png" width="140"/><br/>
       <b>Asher</b><br/>
-      Design
+      Design<br/>
+      &nbsp;
     </td>
   </tr>
 </table>
@@ -173,12 +175,3 @@
 <p align="center">
   배급 · <b>SavageGames</b> &nbsp;|&nbsp; 출시 · 2023.09.11 &nbsp;|&nbsp; 장르 · 플랫포머 / 어드벤처
 </p>
-
-
-
-### 플레이
-
-- [STOVE 스토어에서 무료로 플레이](https://store.onstove.com/ko/games/2303)
-- [시연 영상 · M.E (2024)](https://youtu.be/WQsEJXrU3EA)
-
-인게임 설정에서 한국어와 영어를 바꿀 수 있습니다.

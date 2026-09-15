@@ -145,27 +145,29 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
 
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/sleeeppy.png" width="140"/><br/>
       <b>Han Gyeol Kim</b><br/>
       Developer / Game Design<br/>
       <a href="https://github.com/sleeeppy">@sleeeppy</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/ParkSungHyun123.png" width="140"/><br/>
       <b>Sung Hyun Park</b><br/>
       Developer<br/>
       <a href="https://github.com/ParkSungHyun123">@ParkSungHyun123</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
       <img src="https://github.com/taeng0720.png" width="140"/><br/>
       <b>Tae Woo Kim</b><br/>
       Developer<br/>
       <a href="https://github.com/taeng0720">@taeng0720</a>
     </td>
-    <td align="center">
+    <td align="center" width="25%">
+      <img src="docs/badges/asher.png" width="140"/><br/>
       <b>Asher</b><br/>
-      Design
+      Design<br/>
+      &nbsp;
     </td>
   </tr>
 </table>
@@ -173,12 +175,3 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
 <p align="center">
   Publisher · <b>SavageGames</b> &nbsp;|&nbsp; Released · 2023.09.11 &nbsp;|&nbsp; Genre · Platformer / Adventure
 </p>
-
-
-
-### Play
-
-- [Play free on the STOVE store](https://store.onstove.com/ko/games/2303)
-- [Demo video · M.E (2024)](https://youtu.be/WQsEJXrU3EA)
-
-You can switch between Korean and English in the in-game settings.
