@@ -12,8 +12,7 @@
   <p>
     <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
     <img src="https://img.shields.io/badge/Aseprite-FFFFFF?style=for-the-badge&logo=aseprite&logoColor=7D929E" alt="Aseprite"/>
-    <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
-    <img src="https://img.shields.io/badge/STOVE-100%25%20추천-FF4B4B?style=for-the-badge" alt="STOVE"/>
+    <img src="https://img.shields.io/badge/STOVE-FF5A00?style=for-the-badge&logoColor=white" alt="STOVE"/>
   </p>
 
   <p>
