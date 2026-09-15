@@ -5,6 +5,10 @@
   <h3>Mountain Everest</h3>
 
   <p>
+    <b>한국어</b> · <a href="README.en.md">English</a>
+  </p>
+
+  <p>
     휠체어를 탄 주인공 <b>MEL</b>이 갈고리를 휘둘러<br/>
     에베레스트를 오르는 하드코어 플랫포머
   </p>
