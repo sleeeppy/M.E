@@ -2,13 +2,12 @@
   <a href="README.md">한국어</a> · <b>English</b>
 </p>
 
-<div align="center">
+  <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E main menu" width="100%"/>
 
   <p>
-    <img src="docs/badges/title-me.png" alt="M.E" width="420"/>
-  </p>
-  <p>
+    <p> </p>
+    <img src="docs/badges/title-me.png" alt="M.E" width="220"/><br />
     (Mountain Everest)
   </p>
 
@@ -16,6 +15,7 @@
     A hardcore platformer where <b>MEL</b>, a wheelchair user,<br/>
     climbs Everest with a pair of grappling hooks
   </p>
+
 
   <p>
     <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity"/>
