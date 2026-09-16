@@ -6,7 +6,7 @@
   <img src="docs/screenshots/menu.jpg" alt="M.E 메인 화면" width="100%"/>
 
   <p>
-    <b><font size="7">M.E</font></b>
+    <img src="docs/badges/title-me.png" alt="M.E" width="420"/>
   </p>
   <p>
     (Mountain Everest)
