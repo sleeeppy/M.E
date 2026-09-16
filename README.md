@@ -6,9 +6,8 @@
   <img src="docs/screenshots/menu.jpg" alt="M.E 메인 화면" width="100%"/>
 
   <p>
-    <img src="docs/badges/title-me.png" alt="M.E" width="420"/>
-  </p>
-  <p>
+    <p> </p>
+    <img src="docs/badges/title-me.png" alt="M.E" width="220"/><br />
     (Mountain Everest)
   </p>
 
