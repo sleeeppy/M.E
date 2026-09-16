@@ -5,13 +5,11 @@
 <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E main menu" width="100%"/>
 
-
-  <h1>
-    <b>M.E</b>
-  </h1>
-  (Mountain Everest)
   <p>
-    
+    <b><font size="7">M.E</font></b>
+  </p>
+  <p>
+    (Mountain Everest)
   </p>
 
   <p>
@@ -26,9 +24,9 @@
   </p>
 
   <p>
-    <a href="https://store.onstove.com/ko/games/2303"><b>Play on STOVE</b></a>
-    &nbsp;·&nbsp;
-    <a href="https://youtu.be/WQsEJXrU3EA"><b>Watch the demo</b></a>
+    <a href="https://store.onstove.com/ko/games/2303">
+      <img src="docs/badges/play-en.png" alt="Play on STOVE" height="42"/>
+    </a>
   </p>
 </div>
 

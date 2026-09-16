@@ -5,12 +5,11 @@
 <div align="center">
   <img src="docs/screenshots/menu.jpg" alt="M.E 메인 화면" width="100%"/>
 
-  <h1>
-    <b>M.E</b>
-  </h1>
-  (Mountain Everest)
   <p>
-    
+    <b><font size="7">M.E</font></b>
+  </p>
+  <p>
+    (Mountain Everest)
   </p>
 
   <p>
@@ -25,9 +24,9 @@
   </p>
 
   <p>
-    <a href="https://store.onstove.com/ko/games/2303"><b>STOVE에서 플레이</b></a>
-    &nbsp;·&nbsp;
-    <a href="https://youtu.be/WQsEJXrU3EA"><b>시연 영상 보기</b></a>
+    <a href="https://store.onstove.com/ko/games/2303">
+      <img src="docs/badges/play-ko.png" alt="STOVE에서 플레이" height="42"/>
+    </a>
   </p>
 </div>
 
