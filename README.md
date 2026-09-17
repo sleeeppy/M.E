@@ -167,19 +167,19 @@
   <tr>
     <td align="center" width="25%">
       <img src="https://github.com/sleeeppy.png" width="140"/><br/>
-      <b>Han Gyeol Kim</b><br/>
+      <b>김한결</b><br/>
       Developer / Game Design<br/>
       <a href="https://github.com/sleeeppy">@sleeeppy</a>
     </td>
     <td align="center" width="25%">
       <img src="https://github.com/ParkSungHyun123.png" width="140"/><br/>
-      <b>Sung Hyun Park</b><br/>
+      <b>박성현</b><br/>
       Developer<br/>
       <a href="https://github.com/ParkSungHyun123">@ParkSungHyun123</a>
     </td>
     <td align="center" width="25%">
       <img src="https://github.com/taeng0720.png" width="140"/><br/>
-      <b>Tae Woo Kim</b><br/>
+      <b>김태우</b><br/>
       Developer<br/>
       <a href="https://github.com/taeng0720">@taeng0720</a>
     </td>
