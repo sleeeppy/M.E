@@ -185,10 +185,10 @@ Snowballs knock you back. Ice makes you slide. Watch your footing.
       <a href="https://github.com/taeng0720">@taeng0720</a>
     </td>
     <td align="center" width="25%">
-      <img src="docs/badges/asher.png" width="140"/><br/>
-      <b>Asher</b><br/>
-      Design<br/>
-      &nbsp;
+      <img src="https://github.com/unicorn0323.png" width="140"/><br/>
+      <b>최현서</b><br/>
+      Designer<br/>
+      <a href="https://github.com/unicorn0323">@unicorn0323</a>
     </td>
   </tr>
 </table>
