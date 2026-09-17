@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# GitHub Linguist: keep language stats on game C#, not vendor docs/shaders/builds.
+# LeanLocalization Documentation.html and Game/ Mono aspx were out-weighing Assets/Script.
+Assets/Plugins/** linguist-vendored
+"Assets/TextMesh Pro/**" linguist-vendored
+Assets/Honeti/** linguist-vendored
+Assets/LocalizationPackage/** linguist-vendored
+Game/** linguist-vendored
+Packages/** linguist-vendored
